@@ -1,0 +1,12 @@
+body {
+	background: #cfc;
+}
+
+#img_block {
+    position: absolute;
+    top: 32px;
+    left: 9px;
+    width: 120px;
+    height: 155px;
+    background: url(../images/hand.png) center center / 100% 100%;
+}
