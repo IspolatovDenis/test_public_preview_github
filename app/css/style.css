@@ -1,12 +1,12 @@
 body {
-	background: #faa;
+	background: #9f9;
 }
 
 #img_block {
     position: absolute;
     top: 32px;
     left: 9px;
-    width: 120px;
-    height: 135px;
+    width: 80px;
+    height: 95px;
     background: url(../images/hand.png) center center / 100% 100%;
 }

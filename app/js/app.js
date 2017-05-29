@@ -23,8 +23,8 @@ var activity = function(){
 		text_output = '';
 	}
 	
-	img_block.rotation++;
+	img_block.rotation--;
 	img_block.style.transform='rotate('+img_block.rotation+'deg)';
 }
 
-window.setInterval(activity, 50);
+window.setInterval(activity, 120);
