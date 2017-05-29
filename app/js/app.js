@@ -21,4 +21,4 @@ var activity = function(){
 	}
 }
 
-window.setInterval(activity, 300);
+window.setInterval(activity, 100);
