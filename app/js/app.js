@@ -7,6 +7,9 @@ text_block.textContent = '';
 var i = 0;
 var text_output = '';
 
+var img_block = document.getElementById('img_block');
+img_block.rotation = 0;
+
 var activity = function(){
 	if(text[i]){
 	text_output = text[leng-1-i] + text_output;
@@ -19,6 +22,9 @@ var activity = function(){
 		text_block.textContent = '';
 		text_output = '';
 	}
+	
+	img_block.rotation++;
+	img_block.style.transform='rotate('+img_block.rotation+'deg)';
 }
 
-window.setInterval(activity, 100);
+window.setInterval(activity, 50);
